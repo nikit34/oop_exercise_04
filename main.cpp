@@ -97,7 +97,7 @@ int main() {
         case add_rectangle: {
             Rectangle<int> rec;
             for (i = 0; i < 4; ++i) {
-                std::cout << std::endl << "enter " << i << " pair: ";
+                std::cout << std::endl << "enter " << i + 1 << " pair: ";
                 std::cin >> left >> right;
                 rec.P[i].coord = { left, right };
             }
@@ -107,7 +107,7 @@ int main() {
         case add_square: {
             Quadrate<double> que;
             for (i = 0; i < 4; ++i) {
-                std::cout << std::endl << "enter " << i << " pair: ";
+                std::cout << std::endl << "enter " << i + 1 << " pair: ";
                 std::cin >> left >> right;
                 que.P[i].coord = { left, right };
             }
@@ -117,7 +117,7 @@ int main() {
         case add_triangle: {
             Triangle<double> tri;
             for (i = 0; i < 3; ++i) {
-                std::cout << std::endl << "enter " << i << " pair: ";
+                std::cout << std::endl << "enter " << i + 1 << " pair: ";
                 std::cin >> left >> right;
                 tri.P[i].coord = { left, right };
             }
